@@ -1,0 +1,11 @@
+class Panda :
+    def init(self,name,
+             age, gender,habitat):
+        self.name = name
+        self.age = age 
+        self.gender = gender
+        self.habitat = habitat
+    def eat(self):
+        print(f"{self.name}is eating bammboo.")
+        def sleep(self):
+            print(f"{self.name} is sleeping.")
